@@ -1,0 +1,37 @@
+
+
+.cabecera 
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid salmon;
+    margin-bottom: 25px;
+    height: 10%;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.entorno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+}
+
+.resultado   {
+    margin: 15px;
+}
+
+.btnsolicitar   {
+    margin: 15px;
+}
+
+.cj {
+    margin: 15px;
+}

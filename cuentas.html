@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilocuentas.css">
+    <title>Solicitudes de Prestamos</title>
+</head>
+<body>
+    <div class="cabecera">
+        <h1>Solicitudes de Prestamos</h1>
+    </div>
+
+    <div class="entorno">
+        <label for="pedido">Pedido</label>
+        <input type="number" name="pedido" id="pedido" class="cj" placeholder="Monto a solicitar">
+        <label for="deuda">Deuda Actual</label>
+        <input type="text" name="deuda" id="deuda" class="cj"readonly value="10000">
+        <input type="button" id="btnsolicitar" class="btnsolicitar" value="Solicitar Prestamo">
+
+        <span class="resultado">
+            El resultado de su pedido es:
+        </span>
+        
+    </div>
+
+    
+
+    <script src="otro.js"></script>
+</body>
+</html>
